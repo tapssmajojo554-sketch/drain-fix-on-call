@@ -1,106 +1,216 @@
 <!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#25242b" />
-    <meta name="description" content="DrainFix Plumbing & Jetting helps Gauteng homes, businesses and facilities with blocked drains, high-pressure jetting, CCTV inspections, sewer clearing, geysers and everyday plumbing." />
-    <meta property="og:title" content="Blocked drain? Let’s sort it | DrainFix Plumbing & Jetting" />
-    <meta property="og:description" content="Established since 2011. Plumbing, drains and jetting across Gauteng." />
-    <meta property="og:image" content="/assets/hero.jpg" />
-    <link rel="icon" href="/favicon.svg" />
-    <link rel="stylesheet" href="/src/styles.css" />
-    <title>DrainFix Plumbing & Jetting | Established since 2011</title>
-  </head>
-  <body>
-    <div class="site-shell">
-      <canvas class="geometry" aria-hidden="true"></canvas>
-      <div class="noise" aria-hidden="true"></div>
+<html lang="en-ZA">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>PIRB Registered Plumbers Gauteng | Blocked Drains & Geysers | DrainFix</title>
+<meta name="description" content="PIRB registered plumbers in Gauteng. Blocked drains, high-pressure jetting, CCTV drain inspections, geysers and leaks. Since 2011. Call or WhatsApp DrainFix on 074 064 2297.">
+<meta name="theme-color" content="#1c2170">
+<meta property="og:title" content="PIRB Registered Plumbers in Gauteng | DrainFix">
+<meta property="og:description" content="Blocked drains, geysers and leaks sorted by PIRB registered plumbers. Since 2011.">
+<meta property="og:image" content="assets/hero.jpg">
+<link rel="icon" href="favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Plumber","name":"DrainFix Plumbing & Jetting","telephone":"+27740642297","url":"https://www.drainfixplumbing.co.za/","foundingDate":"2011","areaServed":"Gauteng","description":"PIRB registered plumbers: blocked drains, jetting, CCTV inspections, geysers and leaks."}</script>
+<style>
+:root{--navy:#1c2170;--navy2:#12164f;--red:#e21f2f;--red2:#c4121f;--wa:#1fa855;--ink:#15172e;--mute:#5a5d78;--bg:#f6f5f1;--card:#fff;--line:#e3e1d8;--r:16px}
+@media(prefers-color-scheme:dark){:root{--ink:#f1f1f7;--mute:#a9abc4;--bg:#0f1130;--card:#181b4a;--line:#2b2f73}}
+*{box-sizing:border-box;margin:0}html{scroll-behavior:smooth}
+body{font:17px/1.55 Barlow,system-ui,Segoe UI,Arial,sans-serif;color:var(--ink);background:var(--bg);padding-bottom:84px;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}a{color:inherit}
+h1,h2,h3{font-family:'Barlow Condensed','Arial Narrow',Impact,sans-serif;line-height:1;letter-spacing:.2px;text-transform:uppercase}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:56px;padding:0 26px;border-radius:999px;font-weight:700;font-size:18px;text-decoration:none;border:0;cursor:pointer;transition:transform .15s}
+.btn:hover{transform:translateY(-2px)}
+.call{background:var(--red);color:#fff;box-shadow:0 8px 24px rgba(226,31,47,.4)}.call:hover{background:var(--red2)}
+.wa{background:var(--wa);color:#fff}
+.btn svg{width:22px;height:22px;fill:currentColor}
+.pulse{animation:pulse 2.2s infinite}@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(226,31,47,.55)}70%{box-shadow:0 0 0 16px rgba(226,31,47,0)}100%{box-shadow:0 0 0 0 rgba(226,31,47,0)}}
+@media(prefers-reduced-motion:reduce){.pulse{animation:none}html{scroll-behavior:auto}}
+/* top bar */
+.top{background:var(--navy2);color:#fff;font-size:15px;font-weight:600}
+.top .wrap{display:flex;justify-content:space-between;align-items:center;min-height:42px;gap:12px}
+.top a{text-decoration:none;white-space:nowrap}.top .wrap>span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.top b{color:#ffd23f}
+header{background:var(--card);border-bottom:1px solid var(--line)}
+header .wrap{display:flex;align-items:center;justify-content:space-between;padding-top:10px;padding-bottom:10px;gap:14px}
+header img{height:52px;width:auto;border-radius:6px}
+header .btn{min-height:46px;font-size:16px;padding:0 20px}
+/* hero */
+.hero{background:linear-gradient(160deg,var(--navy) 0%,var(--navy2) 100%);color:#fff;overflow:hidden}
+.hero .wrap{display:grid;grid-template-columns:1.15fr .85fr;gap:36px;align-items:center;padding-top:32px;padding-bottom:36px}
+.badge{display:inline-flex;align-items:center;gap:12px;background:#fff;color:#222;border-radius:14px;padding:8px 16px 8px 10px;margin-bottom:16px;box-shadow:0 6px 20px rgba(0,0,0,.25)}
+.badge img{height:46px;width:auto}.badge span{font-weight:700;font-size:15px;line-height:1.2}.badge small{display:block;font-weight:500;color:#555;font-size:13px}
+.hero h1{font-size:clamp(40px,6.4vw,68px);font-weight:800}.hero h1 em{font-style:normal;color:#ffd23f;display:block}
+.hero p.lede{font-size:19px;margin:14px 0 22px;max-width:540px;color:#dfe0f7}
+.actions{display:flex;gap:12px;flex-wrap:wrap}
+.checks{list-style:none;padding:0;margin-top:20px;display:flex;flex-wrap:wrap;gap:8px 22px;font-weight:600;font-size:15px;color:#dfe0f7}
+.checks li:before{content:"✓ ";color:#ffd23f;font-weight:800}
+.hero figure{position:relative}
+.hero figure img{border-radius:20px;aspect-ratio:1/1;object-fit:cover;object-position:50% 45%;width:100%;max-height:440px;box-shadow:0 20px 50px rgba(0,0,0,.45);border:4px solid rgba(255,255,255,.15)}
+.hero figcaption{position:absolute;left:12px;bottom:12px;background:var(--red);color:#fff;font-weight:700;font-size:14px;padding:6px 12px;border-radius:999px}
+/* sections */
+section{padding:64px 0}
+.kick{color:var(--red);font-weight:800;letter-spacing:2px;font-size:14px;text-transform:uppercase;margin-bottom:10px}
+h2{font-size:clamp(34px,5vw,52px);font-weight:800;margin-bottom:14px}
+.sub{color:var(--mute);max-width:640px;margin-bottom:30px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:24px}
+.card h3{font-size:26px;margin-bottom:8px;color:var(--navy)}@media(prefers-color-scheme:dark){.card h3{color:#ffd23f}}
+.card p{color:var(--mute);font-size:16px}
+.card a.go{display:inline-block;margin-top:14px;font-weight:700;color:var(--red);text-decoration:none}
+.card.hot{background:var(--navy);color:#fff;border-color:var(--navy)}.card.hot h3{color:#ffd23f}.card.hot p{color:#dfe0f7}
+.pick{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin-top:18px}.pick a{display:block;background:var(--card);border:2px solid var(--line);border-radius:var(--r);padding:18px;text-decoration:none;transition:.15s}.pick a:hover{border-color:var(--wa);transform:translateY(-2px)}.pick b{display:block;font-size:19px;margin-bottom:2px}.pick span{color:var(--mute);font-size:14px}
+.faq details{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:16px 20px;margin-bottom:10px}.faq summary{font-weight:700;cursor:pointer;font-size:18px}.faq p{color:var(--mute);margin-top:8px}
+.logos .dk{padding:0;overflow:hidden}.logos .dk img{max-height:84px}
+/* trust */
+.trust{background:var(--card);border-block:1px solid var(--line)}
+.trust .wrap{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
+.logos{display:flex;gap:14px;flex-wrap:wrap;align-items:center;margin-top:22px}
+.logos div{background:#fff;border:1px solid #ddd;border-radius:12px;padding:10px 14px;display:flex;align-items:center;justify-content:center;height:84px}
+.logos img{max-height:62px;width:auto}
+.reg{margin-top:16px;font-weight:700}
+.reg span{color:var(--red)}
+.facts{display:grid;gap:14px}
+.fact{display:flex;gap:16px;align-items:center;background:var(--bg);border-radius:var(--r);padding:16px 18px}
+.fact strong{font-family:'Barlow Condensed',sans-serif;font-size:34px;color:var(--red);min-width:104px;line-height:1}
+.fact span{color:var(--mute);font-size:15px}
+/* video */
+.vid{display:grid;grid-template-columns:1fr 1fr;gap:36px;align-items:center}
+video{width:100%;border-radius:var(--r);background:#000;box-shadow:0 14px 40px rgba(0,0,0,.25)}
+/* steps */
+.steps{counter-reset:s;display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;list-style:none;padding:0}
+.steps li{counter-increment:s;background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:22px}
+.steps li:before{content:counter(s);display:grid;place-items:center;width:40px;height:40px;border-radius:50%;background:var(--red);color:#fff;font-weight:800;margin-bottom:12px}
+.steps b{display:block;font-size:19px;margin-bottom:4px}.steps span{color:var(--mute);font-size:15px}
+/* areas */
+.tags{display:flex;flex-wrap:wrap;gap:10px}
+.tags span{background:var(--card);border:1px solid var(--line);padding:8px 16px;border-radius:999px;font-weight:600;font-size:15px}
+/* cta */
+.final{background:var(--red);color:#fff;text-align:center}
+.final h2{font-size:clamp(38px,6vw,64px)}
+.final p{max-width:560px;margin:0 auto 26px;font-size:19px}
+.final .actions{justify-content:center}
+.final .call{background:#fff;color:var(--red);box-shadow:none;animation:none}.final .wa{background:var(--navy2)}
+footer{background:var(--navy2);color:#c9cbe8;text-align:center;padding:30px 20px;font-size:14px}
+footer img{height:44px;margin:0 auto 12px;border-radius:6px}
+/* sticky bar */
+.bar{position:fixed;left:0;right:0;bottom:0;z-index:50;display:grid;grid-template-columns:1.3fr 1fr;gap:8px;padding:10px 12px calc(10px + env(safe-area-inset-bottom,0px));background:rgba(18,22,79,.96);backdrop-filter:blur(8px)}
+.bar .btn{min-height:54px;font-size:18px;padding:0 12px;border-radius:14px}
+@media(min-width:900px){.bar{left:auto;right:20px;bottom:20px;width:auto;grid-template-columns:auto auto;border-radius:20px;box-shadow:0 12px 40px rgba(0,0,0,.4)}body{padding-bottom:0}}
+@media(max-width:820px){.hero .wrap,.trust .wrap,.vid{grid-template-columns:1fr}.hero figure{max-width:420px;margin:0 auto}.hero figure img{aspect-ratio:4/3;object-position:50% 40%}.top .wrap{font-size:14px}header .btn{display:none}.top span.hide{display:none}section{padding:48px 0}}
+</style>
+</head>
+<body>
+<div class="top"><div class="wrap"><span>⚡ <b>PIRB registered</b> plumbers<span class="hide"> · Gauteng · Since 2011</span></span><a href="tel:+27740642297" data-track="call_top">📞 074 064 2297</a></div></div>
+<header><div class="wrap"><img src="assets/drainfix-logo.jpg" alt="DrainFix Plumbing & Jetting logo" width="200" height="47"><a class="btn call" href="tel:+27740642297" data-track="call_header">Call now</a></div></header>
 
-      <header class="site-header" id="top">
-        <a class="brand-logo-link" href="https://www.drainfixplumbing.co.za/" target="_blank" rel="noreferrer" aria-label="Visit DrainFix Plumbing & Jetting main website"><img class="brand-logo" src="/assets/drainfix-logo.jpg" alt="The DrainFix Plumbing & Jetting logo" /></a>
-        <nav class="main-nav" aria-label="Main navigation">
-          <a href="#services">Services</a>
-          <a href="#commercial">For business</a>
-          <a href="#proof">Why DrainFix</a>
-          <a href="#areas">Coverage</a>
-        </nav>
-        <a class="header-call" href="tel:+27740642297"><span class="phone-icon" aria-hidden="true">↗</span> 074 064 2297</a>
-      </header>
+<main>
+<div class="hero"><div class="wrap">
+<div>
+  <div class="badge"><img src="assets/pirb.png" alt="Plumbing Industry Registration Board logo"><span>PIRB registered plumbers<small>Reg. no. 7288/19</small></span></div>
+  <h1>PIRB registered plumbers <em>in Gauteng.</em></h1>
+  <p class="lede">Blocked drain, leaking geyser, burst pipe or any general plumbing job? Call or WhatsApp us now. Qualified, registered plumbers, working since 2011.</p>
+  <div class="actions">
+    <a class="btn call pulse" href="tel:+27740642297" data-track="call_hero"><svg viewBox="0 0 24 24"><path d="M6.6 10.8a15 15 0 006.6 6.6l2.2-2.2a1 1 0 011-.25 11 11 0 003.4.55 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.2.2 2.3.55 3.4a1 1 0 01-.25 1z"/></svg>Call 074 064 2297</a>
+    <a class="btn wa" href="https://wa.me/27740642297?text=Hi%20DrainFix%2C%20I%20found%20you%20on%20Google.%20I%20need%20a%20PIRB%20registered%20plumber.%20My%20problem%20is%3A%20" target="_blank" rel="noopener" data-track="whatsapp_hero"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 00-8.6 15L2 22l5.1-1.3A10 10 0 1012 2z"/></svg>WhatsApp us</a>
+  </div>
+  <ul class="checks"><li>Blocked drains</li><li>Geysers &amp; leaks</li><li>Jetting &amp; CCTV</li><li>Homes &amp; business</li></ul>
+</div>
+<figure><img src="assets/hero.jpg" alt="DrainFix plumber unblocking a drain with a drain machine" width="900" height="1196" fetchpriority="high"><figcaption>Our team on a real job</figcaption></figure>
+</div></div>
 
-      <main>
-        <section class="hero section-pad" aria-labelledby="hero-title">
-          <div class="hero-copy reveal">
-            <p class="eyebrow"><span class="eyebrow-dot"></span> DrainFix Plumbing &amp; Jetting · Since 2011</p>
-            <h1 id="hero-title">Blocked drain?<br /><span>Let’s sort it.</span></h1>
-            <p class="hero-lede">Blocked drains, geysers, leaks and more. Call us and we’ll help you work out the next step.</p>
-            <div class="hero-actions">
-              <a class="btn btn-primary pulse-btn" href="tel:+27740642297"><span class="btn-icon">☎</span> Call DrainFix <small>074 064 2297</small></a>
-              <a class="btn btn-ghost" href="https://wa.me/27740642297?text=Hi%20DrainFix%2C%20I%20need%20help%20with%20a%20plumbing%20or%20drain%20problem." target="_blank" rel="noreferrer"><span class="whatsapp-icon">⌁</span> WhatsApp us</a>
-            </div>
-            <div class="hero-note"><span class="signal" aria-hidden="true"></span> Need help now? Call us on 074 064 2297 and speak to the team.</div>
-          </div>
+<section style="padding:40px 0 8px"><div class="wrap">
+  <p class="kick">Tap what you need</p><h2>What is your problem?</h2>
+  <div class="pick">
+    <a href="https://wa.me/27740642297?text=Hi%20DrainFix%2C%20I%20have%20a%20blocked%20drain%20or%20toilet.%20Can%20you%20help%3F" target="_blank" rel="noopener" data-track="pick_blocked"><b>🚽 Blocked drain or toilet</b><span>Sinks, showers, gullies, outside drains</span></a>
+    <a href="https://wa.me/27740642297?text=Hi%20DrainFix%2C%20I%20have%20a%20leaking%20geyser%20or%20pipe.%20Can%20you%20help%3F" target="_blank" rel="noopener" data-track="pick_leak"><b>💧 Leaking geyser or pipe</b><span>Burst pipes, overflow, water damage risk</span></a>
+    <a href="https://wa.me/27740642297?text=Hi%20DrainFix%2C%20I%20need%20a%20plumber%20for%20a%20general%20plumbing%20job.%20Can%20you%20help%3F" target="_blank" rel="noopener" data-track="pick_general"><b>🔧 Any other plumbing job</b><span>Taps, toilets, installs, repairs</span></a>
+    <a href="https://wa.me/27740642297?text=Hi%20DrainFix%2C%20I%20manage%20a%20business%20or%20complex%20and%20need%20drainage%20or%20plumbing%20help." target="_blank" rel="noopener" data-track="pick_business"><b>🏢 Business or complex</b><span>Landlords, body corporates, facilities</span></a>
+  </div>
+  <p class="sub" style="margin:16px 0 0;font-size:15px">Not sure what is wrong? Send a photo on WhatsApp, or <a href="tel:+27740642297" data-track="call_picker" style="color:var(--red);font-weight:700">call 074 064 2297</a>.</p>
+</div></section>
+<section id="services"><div class="wrap">
+  <p class="kick">What we fix</p><h2>Plumbing problems, sorted.</h2>
+  <p class="sub">Tell us what is happening. We find the cause and explain the fix before we start.</p>
+  <div class="grid">
+    <div class="card hot"><h3>Blocked drains</h3><p>Toilets, basins, showers, kitchen sinks, floor gullies and outside drains.</p><a class="go" style="color:#ffd23f" href="tel:+27740642297" data-track="call_service">Call about a blocked drain →</a></div>
+    <div class="card"><h3>High-pressure jetting</h3><p>Clears grease, sludge and tree roots from 50mm to 300mm pipes. 250-bar capability.</p></div>
+    <div class="card"><h3>CCTV drain inspection</h3><p>We camera the pipe to see roots, collapses and broken joints. No guessing.</p></div>
+    <div class="card"><h3>Geysers &amp; leaks</h3><p>Leaking or burst geysers, overflow pipes, pipe leaks and everyday plumbing repairs.</p><a class="go" href="tel:+27740642297" data-track="call_service">Call about a leak →</a></div>
+    <div class="card"><h3>Pumps, tanks &amp; water</h3><p>Water pumps, tanks and filtration. Ask us what suits your property.</p></div>
+    <div class="card"><h3>Sewer &amp; commercial</h3><p>Sewer clearing, grease traps and drainage maintenance for landlords, complexes and businesses.</p></div>
+  </div>
+</div></section>
 
-          <div class="hero-visual reveal delay-1">
-            <div class="hero-image-wrap">
-              <img src="/assets/hero.jpg" alt="DrainFix technician working with high-pressure drain equipment" />
-              <div class="image-stamp"><span>SINCE<br />2011</span><b>PIRB</b></div>
-              <div class="image-caption"><span>01 / Field system</span><span>Centurion · Kempton Park · Gauteng</span></div>
-            </div>
-            <div class="hero-orbit orbit-a"></div>
-            <div class="hero-orbit orbit-b"></div>
-          </div>
-        </section>
-
-        <section class="ticker" aria-label="Service highlights">
-          <div class="ticker-track"><span>BLOCKED DRAINS</span><b>·</b><span>JETTING</span><b>·</b><span>CCTV PIPE CHECKS</span><b>·</b><span>GEYSERS</span><b>·</b><span>SEWER WORK</span><b>·</b><span>GAUTENG</span><b>·</b><span>BLOCKED DRAINS</span><b>·</b><span>JETTING</span><b>✳</b></div>
-        </section>
-
-        <section class="intro section-pad" id="services" aria-labelledby="services-title">
-          <div class="section-kicker reveal"><span>01</span><i></i><span>What we help with</span></div>
-          <div class="intro-heading reveal">
-            <h2 id="services-title">Blocked drain?<br /><em>Let’s get it sorted.</em></h2>
-            <p>If water is backing up, a toilet won’t clear, or the same drain keeps blocking, give us a call. We’ll inspect the cause and explain what needs doing.</p>
-          </div>
-          <div class="service-list">
-            <a class="service-card reveal" href="https://www.drainfixplumbing.co.za/" target="_blank" rel="noreferrer"><span class="service-number">01</span><span class="service-icon icon-drain">⌁</span><h3>Blocked drains</h3><p>Toilets, basins, showers, floor gullies and external sewer backups.</p><span class="service-link">More about this <b>↗</b></span></a>
-            <a class="service-card reveal delay-1" href="https://www.drainfixplumbing.co.za/" target="_blank" rel="noreferrer"><span class="service-number">02</span><span class="service-icon icon-jet">◌</span><h3>High-pressure jetting</h3><p>Flush grease, sludge and tree roots from 50mm to 300mm pipes.</p><span class="service-link">More about this <b>↗</b></span></a>
-            <a class="service-card reveal delay-2" href="https://www.drainfixplumbing.co.za/" target="_blank" rel="noreferrer"><span class="service-number">03</span><span class="service-icon icon-camera">◎</span><h3>CCTV pipe inspections</h3><p>See collapses, roots, displaced joints and hidden causes without guesswork.</p><span class="service-link">More about this <b>↗</b></span></a>
-            <a class="service-card reveal" href="https://www.drainfixplumbing.co.za/" target="_blank" rel="noreferrer"><span class="service-number">04</span><span class="service-icon icon-water">⌇</span><h3>Geysers &amp; plumbing</h3><p>Leaks, burst geysers, pumps, tanks, filtration and everyday plumbing.</p><span class="service-link">More about this <b>↗</b></span></a>
-            <a class="service-card reveal delay-1" href="https://www.drainfixplumbing.co.za/" target="_blank" rel="noreferrer"><span class="service-number">05</span><span class="service-icon icon-sewer">≋</span><h3>Sewer clearing</h3><p>Stormwater silt, construction debris and severe municipal backups.</p><span class="service-link">More about this <b>↗</b></span></a>
-            <a class="service-card service-card-dark reveal delay-2" href="https://www.drainfixplumbing.co.za/" target="_blank" rel="noreferrer"><span class="service-number">06</span><span class="service-icon">＋</span><h3>Commercial care</h3><p>SLA-backed drainage maintenance, grease trap flushing and emergency response.</p><span class="service-link">Talk to us <b>↗</b></span></a>
-          </div>
-        </section>
-
-        <section class="commercial section-pad" id="commercial" aria-labelledby="commercial-title">
-          <div class="commercial-image logo-panel reveal"><img src="/assets/drainfix-logo.jpg" alt="The DrainFix Plumbing & Jetting logo" /></div>
-          <div class="commercial-copy reveal delay-1">
-            <div class="section-kicker"><span>02</span><i></i><span>For businesses, complexes &amp; facilities</span></div>
-            <h2 id="commercial-title">A team you can<br /><em>call again.</em></h2>
-            <p>Since 2011, DrainFix has helped Gauteng homes, businesses, landlords, complexes and facilities deal with blocked drains and plumbing problems. We focus on doing the job properly, not just getting you through today.</p>
-            <div class="stat-row"><div><strong>Since 2011</strong><span>Operating experience</span></div><div><strong>Gauteng-wide</strong><span>Service coverage</span></div><div><strong>250-Bar</strong><span>Jetting capability</span></div></div>
-            <a class="text-link" href="https://www.drainfixplumbing.co.za/" target="_blank" rel="noreferrer">See the full DrainFix approach <b>↗</b></a>
-          </div>
-        </section>
-
-        <section class="proof section-pad" id="proof" aria-labelledby="proof-title">
-          <div class="proof-intro reveal"><div class="section-kicker"><span>03</span><i></i><span>What happens when you call</span></div><h2 id="proof-title">A straightforward<br /><em>way to sort it out.</em></h2><p>You tell us what is going on. We inspect the problem, explain what we find and recommend the sensible next step.</p></div>
-          <div class="proof-steps reveal delay-1"><div class="step"><span>01</span><strong>TELL US</strong><p>Tell us what is happening.</p></div><div class="step"><span>02</span><strong>CHECK IT</strong><p>We inspect the cause.</p></div><div class="step"><span>03</span><strong>EXPLAIN</strong><p>We explain the next step.</p></div><div class="step step-active"><span>04</span><strong>SORT IT</strong><p>We help sort the problem.</p></div></div>
-          <div class="accreditations reveal delay-2"><p class="micro-label">Registered &amp; recognised</p><div class="logo-row"><div class="logo-tile"><img src="/assets/iopsa.png" alt="IOPSA logo" /></div><div class="logo-tile"><img src="/assets/nhbrc.jpg" alt="NHBRC logo" /></div><div class="logo-tile"><img src="/assets/pirb.png" alt="PIRB logo" /></div></div><p class="registration">PIRB 7288/19 · Registered plumbing team</p></div>
-        </section>
-
-        <section class="coverage section-pad" id="areas" aria-labelledby="areas-title">
-          <div class="coverage-panel reveal"><div class="section-kicker light"><span>04</span><i></i><span>Where we work</span></div><h2 id="areas-title">We cover<br /><em>Gauteng.</em></h2><p>We’re based in Centurion and Kempton Park and work across Johannesburg, Pretoria, Midrand, Sandton, the East Rand, West Rand, Sedibeng and surrounding areas.</p><div class="coverage-tags"><span>Johannesburg</span><span>Pretoria</span><span>Centurion</span><span>Midrand</span><span>Sandton</span><span>East Rand</span></div></div>
-          <div class="coverage-map reveal delay-1" aria-hidden="true"><div class="map-grid"></div><div class="map-ring ring-1"></div><div class="map-ring ring-2"></div><div class="map-ring ring-3"></div><div class="map-ping ping-1"><b></b><span>Centurion</span></div><div class="map-ping ping-2"><b></b><span>Kempton Park</span></div><div class="map-ping ping-3"><b></b><span>Gauteng</span></div></div>
-        </section>
-
-        <section class="final-cta section-pad" aria-labelledby="cta-title"><div class="cta-line reveal"></div><p class="eyebrow reveal"><span class="eyebrow-dot"></span> Need a plumber?</p><h2 id="cta-title" class="reveal">Need it<br /><em>sorted?</em></h2><p class="cta-copy reveal">Blocked drains, leaking geysers and plumbing jobs — call us and we’ll help you take the next step.</p><div class="hero-actions reveal"><a class="btn btn-primary pulse-btn" href="tel:+27740642297"><span class="btn-icon">☎</span> Call 074 064 2297</a><a class="btn btn-ghost" href="https://www.drainfixplumbing.co.za/" target="_blank" rel="noreferrer">Visit the full website <span>↗</span></a></div></section>
-      </main>
-
-      <footer class="site-footer"><a class="brand-logo-link footer-brand" href="https://www.drainfixplumbing.co.za/" target="_blank" rel="noreferrer" aria-label="Visit DrainFix Plumbing & Jetting main website"><img class="brand-logo" src="/assets/drainfix-logo.jpg" alt="The DrainFix Plumbing & Jetting logo" /></a><p>Homes · small business · facilities<br />Centurion · Kempton Park · Gauteng</p><a class="footer-link" href="https://www.drainfixplumbing.co.za/" target="_blank" rel="noreferrer">drainfixplumbing.co.za ↗</a><span class="copyright">© <span id="year"></span> DrainFix · Established since 2011</span></footer>
-
-      <div class="floating-actions" aria-label="Contact DrainFix"><a class="float-action float-call" href="tel:+27740642297" aria-label="Call DrainFix on 074 064 2297"><span class="float-icon phone-icon-small" aria-hidden="true">☎</span><span class="float-copy"><b>Call us</b><small>074 064 2297</small></span></a><a class="float-action float-whatsapp" href="https://wa.me/27740642297?text=Hi%20DrainFix%2C%20I%20need%20help%20with%20a%20plumbing%20or%20drain%20problem." target="_blank" rel="noreferrer" aria-label="Message DrainFix on WhatsApp"><span class="float-icon whatsapp-icon-small" aria-hidden="true">⌁</span><span class="float-copy"><b>WhatsApp</b><small>Message the team</small></span></a></div>
+<section class="trust"><div class="wrap">
+  <div>
+    <p class="kick">Why people trust us</p><h2>Registered. Qualified. Accountable.</h2>
+    <p class="sub" style="margin-bottom:0">Anyone can say they are a plumber. We are registered with the Plumbing Industry Registration Board (PIRB), so you hire a plumber who is held to industry standards.</p>
+    <div class="logos">
+      <div><img src="assets/pirb.png" alt="PIRB logo" loading="lazy"></div>
+      <div><img src="assets/iopsa.png" alt="IOPSA logo" loading="lazy"></div>
+      <div class="dk"><img src="assets/nhbrc.jpg" alt="NHBRC logo" loading="lazy"></div>
     </div>
-    <script type="module" src="/src/main.js"></script>
-  </body>
+    <p class="reg"><span>PIRB reg. no. 7288/19</span> · Ask us for proof when you call.</p>
+  </div>
+  <div class="facts">
+    <div class="fact"><strong>Since 2011</strong><span>Over a decade of drains, geysers and leaks across Gauteng.</span></div>
+    <div class="fact"><strong>PIRB</strong><span>Registered plumbing team, not a random handyman.</span></div>
+    <div class="fact"><strong>250-bar</strong><span>Professional jetting equipment for the tough blockages.</span></div>
+  </div>
+</div></section>
+
+<section><div class="wrap vid">
+  <div><p class="kick">See inside your drain</p><h2>We camera it. No guessing.</h2><p class="sub" style="margin-bottom:22px">Our drain camera shows the real cause of the blockage on screen, so we fix the right thing the first time.</p><a class="btn call" href="tel:+27740642297" data-track="call_video">Call 074 064 2297</a></div>
+  <video controls playsinline preload="none" poster="assets/video-poster.jpg"><source src="assets/drainfix-at-work.mp4" type="video/mp4"></video>
+</div></section>
+
+<section style="padding-top:0"><div class="wrap">
+  <p class="kick">How it works</p><h2>Four simple steps.</h2>
+  <ol class="steps" style="margin-top:24px">
+    <li><b>Call or WhatsApp</b><span>Tell us what is wrong. A photo helps.</span></li>
+    <li><b>We come and inspect</b><span>We find the real cause of the problem.</span></li>
+    <li><b>You get the plan</b><span>We explain what needs doing before we start.</span></li>
+    <li><b>Problem fixed</b><span>Done properly by a registered plumber.</span></li>
+  </ol>
+</div></section>
+
+<section class="trust" style="border-bottom:0"><div class="wrap" style="display:block">
+  <p class="kick">Where we work</p><h2>Across Gauteng.</h2>
+  <p class="sub">Based in Centurion and Kempton Park. We work across Gauteng, including:</p>
+  <div class="tags"><span>Johannesburg</span><span>Pretoria</span><span>Sandton</span><span>Centurion</span><span>Midrand</span><span>Randburg</span><span>Edenvale</span><span>Alberton</span><span>Kempton Park</span><span>Lenasia</span><span>Vanderbijlpark</span><span>East Rand</span><span>West Rand</span></div>
+</div></section>
+
+<section class="faq"><div class="wrap"><p class="kick">Quick answers</p><h2>Questions people ask.</h2><div style="margin-top:22px">
+<details><summary>Are you really PIRB registered?</summary><p>Yes. Our PIRB registration number is 7288/19. Ask us for proof when you call.</p></details>
+<details><summary>How much will it cost?</summary><p>It depends on the cause and the job. Tell us what is happening (a photo helps) and we explain what is needed before we start.</p></details>
+<details><summary>Do you work in my area?</summary><p>We work across Gauteng, including Johannesburg, Pretoria, Sandton, Centurion, Midrand and the East and West Rand. Call or WhatsApp and we will confirm.</p></details>
+<details><summary>I do not know what is wrong. What do I do?</summary><p>Send a photo or short video on WhatsApp, or call us. We help you work out the cause and the next step.</p></details>
+<details><summary>Do you do business and complex work?</summary><p>Yes. We help landlords, complexes, body corporates and businesses with drains, sewer clearing and grease traps.</p></details>
+</div></div></section>
+<section class="final"><div class="wrap">
+  <h2>Need a PIRB registered plumber today?</h2>
+  <p>Call or WhatsApp DrainFix now and tell us what the problem is.</p>
+  <div class="actions"><a class="btn call" href="tel:+27740642297" data-track="call_footer">📞 Call 074 064 2297</a><a class="btn wa" href="https://wa.me/27740642297?text=Hi%20DrainFix%2C%20I%20found%20you%20on%20Google.%20I%20need%20a%20PIRB%20registered%20plumber.%20My%20problem%20is%3A%20" target="_blank" rel="noopener" data-track="whatsapp_footer">WhatsApp us</a></div>
+</div></section>
+</main>
+
+<footer><img src="assets/drainfix-logo.jpg" alt="DrainFix Plumbing & Jetting" loading="lazy"><p>DrainFix Plumbing &amp; Jetting · PIRB 7288/19 · Centurion · Kempton Park · Gauteng</p><p style="margin-top:6px">© <span id="y">2026</span> DrainFix · Established 2011 · <a href="https://www.drainfixplumbing.co.za/" rel="noopener">Main website</a></p></footer>
+
+<div class="bar" role="complementary" aria-label="Contact DrainFix">
+  <a class="btn call" href="tel:+27740642297" data-track="call_sticky">📞 Call now</a>
+  <a class="btn wa" href="https://wa.me/27740642297?text=Hi%20DrainFix%2C%20I%20found%20you%20on%20Google.%20I%20need%20a%20PIRB%20registered%20plumber.%20My%20problem%20is%3A%20" target="_blank" rel="noopener" data-track="whatsapp_sticky">WhatsApp</a>
+</div>
+
+<script>
+document.getElementById('y').textContent=new Date().getFullYear();
+// Click tracking: sends call/WhatsApp clicks to Google Ads/GA4 if the Google tag (gtag.js) is installed on this page.
+document.addEventListener('click',function(e){var a=e.target.closest('[data-track]');if(!a)return;
+ var n=a.getAttribute('data-track');
+ try{if(window.gtag){gtag('event','contact_click',{event_category:'lead',event_label:n});}
+ (window.dataLayer=window.dataLayer||[]).push({event:'contact_click',label:n});}catch(_){}
+});
+</script>
+</body>
 </html>
